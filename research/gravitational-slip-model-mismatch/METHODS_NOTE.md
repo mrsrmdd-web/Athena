@@ -80,4 +80,6 @@ The intended evidentiary standard is that the scientific claim ultimately stand 
 
 ## Reproducibility status
 
-The reported runs used seed `7` for the MCMC run and seed `11` for coverage. Five underlying files were presented during the Claude analysis, but those files are not yet present in this repository. Until they are committed and independently rerun, this note is a timestamped record of the result and provenance, not a completed independent-reproduction package.
+The reported runs are now preserved under `artifacts/`, including the original archive, the five core nonlinear run artifacts, three supporting source files, and the bundled run README. The bundled README documents `python3 nonlinear.py mcmc 7` and `python3 nonlinear.py coverage 11`, and inspection of `nonlinear.py` verifies its positional mode/seed parsing. Exact SHA-256 hashes and byte counts are recorded in `ARTIFACT_MANIFEST.md`.
+
+This remains a timestamped preservation package, not a completed independent reproduction: no clean rerun was performed; no dependency lockfile or environment export is included; and the coverage artifact is summary-only rather than a full per-realization raw dataset.

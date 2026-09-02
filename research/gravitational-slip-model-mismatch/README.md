@@ -56,6 +56,8 @@ The scientific claim should ultimately rest on reproducible code and outputs, no
 
 ## Reproducibility status
 
-The underlying Claude run reportedly used seed `7` for the MCMC run and seed `11` for coverage. The full five-file code/output package referenced in the analysis has **not yet been committed to this repository**. Until those artifacts are added and independently rerun, the repository timestamps the methods result and its provenance, but does not yet constitute complete independent reproduction.
+The preserved source archive and unpacked originals are now committed under `artifacts/`. The archive contains five core nonlinear run artifacts (`nonlinear.py`, the two result JSON files, and the two logs), three supporting source files, and the bundled run README. The bundled README documents seed `7` for `python3 nonlinear.py mcmc 7` and seed `11` for `python3 nonlinear.py coverage 11`; inspection of `nonlinear.py` verifies that the second positional argument is used as the integer NumPy RNG seed. SHA-256 hashes and byte counts are recorded in `ARTIFACT_MANIFEST.md`.
+
+This is preservation of the reported run, not a completed independent reproduction: no clean rerun was performed, the archive has no dependency lockfile or environment export, and the coverage output is summary-only rather than a full per-realization raw dataset.
 
 See `METHODS_NOTE.md` for the compact skeptical-reader version.

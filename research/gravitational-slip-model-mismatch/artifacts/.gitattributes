@@ -1,0 +1,3 @@
+# The unpacked study files are evidence artifacts; preserve their bytes exactly.
+original/** binary
+*.zip binary
