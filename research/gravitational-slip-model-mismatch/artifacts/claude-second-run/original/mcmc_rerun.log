@@ -1,0 +1,55 @@
+[inside eta=1.0] MAP eta=1.0549 +- 0.1343 chi2=3.5
+  step 0 acc 0.30 eta med 1.036
+  step 100 acc 0.39 eta med 1.046
+  step 200 acc 0.35 eta med 1.025
+  step 300 acc 0.33 eta med 1.023
+  step 400 acc 0.33 eta med 1.016
+  step 500 acc 0.32 eta med 1.004
+  step 600 acc 0.32 eta med 1.000
+  step 700 acc 0.32 eta med 1.012
+  step 800 acc 0.32 eta med 1.010
+   posterior eta = 1.0117 (+0.0650/-0.0451)  acc=0.31  265s
+[outside eta=1.0] MAP eta=1.2036 +- 0.2182 chi2=2.0
+  step 0 acc 0.55 eta med 1.210
+  step 100 acc 0.39 eta med 1.198
+  step 200 acc 0.36 eta med 1.188
+  step 300 acc 0.36 eta med 1.173
+  step 400 acc 0.34 eta med 1.168
+  step 500 acc 0.33 eta med 1.134
+  step 600 acc 0.33 eta med 1.128
+  step 700 acc 0.32 eta med 1.135
+  step 800 acc 0.32 eta med 1.123
+   posterior eta = 1.1364 (+0.0803/-0.0775)  acc=0.31  265s
+[outside eta=0.98] MAP eta=1.0907 +- 0.1284 chi2=3.7
+  step 0 acc 0.35 eta med 1.079
+  step 100 acc 0.39 eta med 1.085
+  step 200 acc 0.37 eta med 1.085
+  step 300 acc 0.35 eta med 1.064
+  step 400 acc 0.34 eta med 1.076
+  step 500 acc 0.33 eta med 1.078
+  step 600 acc 0.32 eta med 1.041
+  step 700 acc 0.31 eta med 1.035
+  step 800 acc 0.31 eta med 1.040
+   posterior eta = 1.0536 (+0.0794/-0.0779)  acc=0.30  234s
+[outside eta=0.95] MAP eta=0.9954 +- 0.1124 chi2=8.0
+  step 0 acc 0.35 eta med 0.993
+  step 100 acc 0.42 eta med 0.991
+  step 200 acc 0.39 eta med 0.994
+  step 300 acc 0.38 eta med 0.998
+  step 400 acc 0.36 eta med 0.982
+  step 500 acc 0.34 eta med 1.006
+  step 600 acc 0.33 eta med 0.990
+  step 700 acc 0.32 eta med 0.984
+  step 800 acc 0.32 eta med 0.971
+   posterior eta = 0.9844 (+0.0652/-0.0611)  acc=0.31  132s
+[outside eta=0.9] MAP eta=0.9619 +- 0.1130 chi2=6.5
+  step 0 acc 0.45 eta med 0.956
+  step 100 acc 0.37 eta med 0.958
+  step 200 acc 0.36 eta med 0.956
+  step 300 acc 0.36 eta med 0.937
+  step 400 acc 0.34 eta med 0.923
+  step 500 acc 0.33 eta med 0.924
+  step 600 acc 0.33 eta med 0.943
+  step 700 acc 0.32 eta med 0.934
+  step 800 acc 0.32 eta med 0.943
+   posterior eta = 0.9349 (+0.0811/-0.0629)  acc=0.32  130s

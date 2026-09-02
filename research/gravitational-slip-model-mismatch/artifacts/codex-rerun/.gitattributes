@@ -1,0 +1,3 @@
+# Preserve the Codex source snapshot and regenerated result bytes exactly.
+source/** binary
+results/** binary

@@ -56,8 +56,8 @@ The scientific claim should ultimately rest on reproducible code and outputs, no
 
 ## Reproducibility status
 
-The preserved source archive and unpacked originals are now committed under `artifacts/`. The archive contains five core nonlinear run artifacts (`nonlinear.py`, the two result JSON files, and the two logs), three supporting source files, and the bundled run README. The bundled README documents seed `7` for `python3 nonlinear.py mcmc 7` and seed `11` for `python3 nonlinear.py coverage 11`; inspection of `nonlinear.py` verifies that the second positional argument is used as the integer NumPy RNG seed. SHA-256 hashes and byte counts are recorded in `ARTIFACT_MANIFEST.md`.
+The preserved source archive and unpacked originals remain under `artifacts/`. A second Claude-supplied package is preserved separately at `artifacts/claude-second-run/`, and a third, separately labeled Codex rerun is preserved at `artifacts/codex-rerun/`. SHA-256 hashes and byte counts for all run files are recorded in `ARTIFACT_MANIFEST.md`.
 
-This is preservation of the reported run, not a completed independent reproduction: no clean rerun was performed, the archive has no dependency lockfile or environment export, and the coverage output is summary-only rather than a full per-realization raw dataset.
+The Claude package self-reports an exact same-environment verification and adds per-realization coverage pairs. Codex independently reran both nonlinear commands, but in Python 3.13.14 with NumPy 2.5.2 and SciPy 1.18.0 rather than the Claude-declared environment; the Codex results are therefore preserved as a separate comparison, not substituted for the original outputs. This remains an environment-qualified reproducibility record, not an overclaim of exact independent reproduction.
 
 See `METHODS_NOTE.md` for the compact skeptical-reader version.

@@ -80,6 +80,6 @@ The intended evidentiary standard is that the scientific claim ultimately stand 
 
 ## Reproducibility status
 
-The reported runs are now preserved under `artifacts/`, including the original archive, the five core nonlinear run artifacts, three supporting source files, and the bundled run README. The bundled README documents `python3 nonlinear.py mcmc 7` and `python3 nonlinear.py coverage 11`, and inspection of `nonlinear.py` verifies its positional mode/seed parsing. Exact SHA-256 hashes and byte counts are recorded in `ARTIFACT_MANIFEST.md`.
+The reported runs are preserved under `artifacts/`, including the original package, the second Claude-supplied package, and a separately labeled Codex rerun. The second package adds per-realization coverage pairs and a dependency declaration; exact SHA-256 hashes and byte counts are recorded in `ARTIFACT_MANIFEST.md`.
 
-This remains a timestamped preservation package, not a completed independent reproduction: no clean rerun was performed; no dependency lockfile or environment export is included; and the coverage artifact is summary-only rather than a full per-realization raw dataset.
+Codex reran `python nonlinear.py mcmc 7` and `python nonlinear.py coverage 11` in Python 3.13.14 with NumPy 2.5.2 and SciPy 1.18.0. Because that differs from the Claude package’s self-reported Python 3.12 / NumPy 2.4.4 / SciPy 1.17.1 environment, the third package is evidence of a separate rerun, not a claim of exact independent reproduction. The original outputs remain preserved and unmodified.
